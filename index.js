@@ -1,10 +1,4 @@
 const app = require('./App')
-// const mongoose = require('mongoose')
-
-
-
-
-// mongoose.connect('mongodb://localhost/Todo')
 
 
 app.listen(1000 , ()=>{

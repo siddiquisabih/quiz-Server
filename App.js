@@ -2,11 +2,6 @@ const express = require('express')
 const Routes = require('./Routes/Routes')
 const bodyParser = require('body-parser')
 const app = express()
-// const mongoose = require('mongoose')
-
-
-
-// mongoose.Promise = global.Promise
 
 
 app.use(bodyParser.json())
